@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    background-color: darkmagenta;
+    height: 80px;
+}
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+.menu-items{
+    display: flex;
+}
+.menu-items li{
+    list-style: none;
+    padding: 10px;
+}
+.menu-items a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px;
+}
+.menu-items a:hover{
+    border-bottom: 1px solid white;
+}
+
+.home-content{
+    background-color: gold;
+    height: 700px;
+}
+.home-content .name {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    width: 100%;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  
+  .home-content .name h1 {
+    font-size: 2.2rem;
+    text-align: left;
+
+  }
+  
+  .home-content .name p {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 50%;
+    
+  }
+  .home-content .right-content img{
+       width: 400px;
+       height: 400px;
+       margin-left: 65%;
+       margin-top: 10%;
+  }
+  .About{
+    background-color: darkmagenta;
+    height: 500px;
+  }
+  .About .jimiki h1{
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .About .jimiki p{
+    color: white;
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: 500;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  .About .jimiki img{
+    margin-left: 43%;
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+  }
+  .Product .pro{
+    background-color: gold;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .Product .pro img{
+       width: 200px;
+       height: 200px; 
+       padding: 10px; 
+  }
+  .Product .pro p{
+    padding: 10px;
+    width: 200px;
+  }
+.Product .pro .box .but{
+    background-color: black;
+    color: white;
+    margin-bottom: 10%;
+
+}
+.Product .pro .box{
+    text-align: center;
+
+}
+.Product .pro .box:hover{
+    cursor: pointer;
+    border:  1px solid white;
+    width: 200px;
+    height: 350px;
+}
+.Contact-me .foot{
+    background-color: darkmagenta;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+}
+.Contact-me .foot a{
+    text-decoration: none;
+    color: white;
+}
+
+  
+  
