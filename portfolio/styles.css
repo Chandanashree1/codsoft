@@ -1,0 +1,77 @@
+  
+ 
+.container {
+	align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+	left: 50%;	
+    transform: translate(-50%, -50%);
+	background:green;
+	border-radius: 20px;
+	padding-bottom: 20px;
+  	width: 320px;
+	
+}
+.Display {
+	width: 100%;
+	height: 90px;
+	padding: 60px 0px ;
+	background: black;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+    cursor: pointer;
+}
+.buttons {
+	padding: 20px;
+    }
+
+.row {
+	width: 280px;
+}
+
+input[type=button] {
+	width: 60px;
+	height: 60px;
+    float: left;
+	padding: 10px;
+	margin: 5px;
+	background: black;
+	font-size: 20px;
+	border-radius: 10%;
+	font-weight: 1000;
+	color:white;
+	cursor: pointer;
+	
+}
+
+input[type=text] {
+	width: 200px;
+	height: 80px;	
+	border: none;
+	background: white;
+	color: black;
+	text-align: right;
+	font-weight: 700;
+    font-size: 50px;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+}
+
+.red{
+    background-color: yellow ;
+    color: black ;
+  
+}
+.one{
+	background-color: white;
+	color: hotpink;
+	height: 40px;
+	padding: 20px;
+	margin-bottom: 10%;
+	font-size: 20px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
